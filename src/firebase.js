@@ -9,12 +9,12 @@ import { getFunctions } from "firebase/functions";
 
 // Initialize Firebase with your project's configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAQhkDqYMHNXP2mNn44cJQa8LU-HetzUks",
+  apiKey: "",
   authDomain: "vic-test-frbs.firebaseapp.com",
   projectId: "vic-test-frbs",
   storageBucket: "vic-test-frbs.firebasestorage.app",
   messagingSenderId: "107151912809",
-  appId: "1:107151912809:web:043f5354c0c89b45d897f8"
+  appId: ""
 };
 
 // Initialize Firebase app
