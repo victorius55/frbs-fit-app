@@ -38,7 +38,7 @@ exports.fetchExer = onRequest( { cors: true }, async (req, res) => {
     try {
         const name = req.query.name;
         const apiResponse = await fetch(`https://api.api-ninjas.com/v1/exercises?name=${encodeURIComponent(name)}`, {
-            headers: { 'X-Api-Key': 'KelJ+zQaHHqZWeZEfnIveg==ldDEsSD4SLK93H5W' }
+            headers: { 'X-Api-Key': '' }
         });
 
         const data = await apiResponse.json();
